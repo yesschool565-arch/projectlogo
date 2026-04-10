@@ -560,6 +560,13 @@
       "password": "admin123",
       "email": "admin@omnitratech.com",
       "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "username": "Shrikumar@1234",
+      "password": "Omnitra@123",
+      "email": "shrikumar@omnitratech.com",
+      "createdAt": "2026-04-10T00:00:00.000Z"
     }
   ],
   "footerLinks": [
