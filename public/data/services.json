@@ -1,0 +1,188 @@
+[
+  {
+    "id": "1",
+    "slug": "ai-ml-services",
+    "title": "AI & ML Services",
+    "description": "Top-notch delivery of comprehensive GenAI and Agentic AI solutions tailored for enterprise success.",
+    "iconName": "Brain",
+    "fullDescription": "Our AI & ML Services provide cutting-edge artificial intelligence and machine learning solutions designed for modern enterprises. From generative AI implementations to agentic systems, we deliver comprehensive solutions tailored to your business needs with proven expertise across industries.",
+    "benefits": [
+      "Generative AI Implementation",
+      "Machine Learning Models",
+      "Enterprise AI Integration",
+      "Scalable AI Solutions"
+    ],
+    "features": [
+      {
+        "title": "GenAI Solutions",
+        "desc": "Advanced generative AI for content and decision-making",
+        "iconName": "Zap"
+      },
+      {
+        "title": "Agentic AI",
+        "desc": "Autonomous AI agents for complex workflows",
+        "iconName": "Brain"
+      },
+      {
+        "title": "Custom Models",
+        "desc": "Tailored machine learning models for your use cases",
+        "iconName": "Settings"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "cloud-cognitive-business-operations",
+    "title": "Cloud Cognitive Business Operations",
+    "description": "Intelligent cloud-based business operations powered by cognitive technologies.",
+    "iconName": "Cloud",
+    "fullDescription": "Transform your business operations with our cloud-based cognitive solutions. We deliver intelligent systems that automate processes, enhance decision-making, and optimize resource allocation using advanced cloud infrastructure and AI technologies.",
+    "benefits": [
+      "Cloud Infrastructure",
+      "Cognitive Automation",
+      "Real-time Analytics",
+      "Cost Optimization"
+    ],
+    "features": [
+      {
+        "title": "Cloud Platform",
+        "desc": "Scalable cloud infrastructure for enterprise operations",
+        "iconName": "Cloud"
+      },
+      {
+        "title": "Cognitive Automation",
+        "desc": "AI-powered process automation and optimization",
+        "iconName": "Zap"
+      },
+      {
+        "title": "Analytics & Insights",
+        "desc": "Real-time business intelligence and reporting",
+        "iconName": "BarChart3"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "mechanical-industrial-solutions",
+    "title": "Mechanical & Industrial Solutions",
+    "description": "Expert mechanical engineering and industrial systems design for complex environments.",
+    "iconName": "Factory",
+    "fullDescription": "Specialized mechanical engineering and industrial systems design services for complex manufacturing and industrial environments. Our team provides comprehensive solutions from concept through implementation with proven expertise in machinery design, automation, and optimization.",
+    "benefits": [
+      "System Design & Engineering",
+      "Machinery Optimization",
+      "Industrial Automation",
+      "Quality Assurance"
+    ],
+    "features": [
+      {
+        "title": "Design Engineering",
+        "desc": "Advanced CAD and mechanical design solutions",
+        "iconName": "Wrench"
+      },
+      {
+        "title": "Automation",
+        "desc": "Industrial automation and control systems",
+        "iconName": "Zap"
+      },
+      {
+        "title": "Optimization",
+        "desc": "Equipment performance and efficiency optimization",
+        "iconName": "TrendingUp"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "pipeline-design-installation",
+    "title": "Pipeline Design & Installation",
+    "description": "Professional pipeline engineering, mapping, and installation services worldwide.",
+    "iconName": "GitBranch",
+    "fullDescription": "Comprehensive pipeline engineering and installation services covering design, mapping, installation, and maintenance. We provide end-to-end solutions for oil, gas, water, and utility pipelines with global expertise and local knowledge.",
+    "benefits": [
+      "Global Expertise",
+      "Advanced Mapping",
+      "Quality Installation",
+      "Maintenance Support"
+    ],
+    "features": [
+      {
+        "title": "Engineering Design",
+        "desc": "Professional pipeline design and route optimization",
+        "iconName": "GitBranch"
+      },
+      {
+        "title": "Installation",
+        "desc": "Expert installation and commissioning services",
+        "iconName": "Hammer"
+      },
+      {
+        "title": "Maintenance",
+        "desc": "Ongoing maintenance and inspection services",
+        "iconName": "Wrench"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "enterprise-solutions",
+    "title": "Enterprise Solutions",
+    "description": "Scalable enterprise-grade solutions tailored to your business needs.",
+    "iconName": "Building2",
+    "fullDescription": "Our enterprise solutions provide scalable, robust systems designed for large organizations. From infrastructure to application development, we deliver comprehensive solutions that support your business growth and operational excellence.",
+    "benefits": [
+      "Scalable Infrastructure",
+      "Enterprise Architecture",
+      "High Availability",
+      "Business Continuity"
+    ],
+    "features": [
+      {
+        "title": "Infrastructure",
+        "desc": "Enterprise-grade infrastructure and architecture",
+        "iconName": "Building2"
+      },
+      {
+        "title": "Applications",
+        "desc": "Custom enterprise applications and integrations",
+        "iconName": "Code"
+      },
+      {
+        "title": "Support",
+        "desc": "24/7 enterprise support and managed services",
+        "iconName": "Headphones"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "cybersecurity-solutions",
+    "title": "Cybersecurity Solutions",
+    "description": "Comprehensive security solutions to protect your digital assets and infrastructure.",
+    "iconName": "Shield",
+    "fullDescription": "Complete cybersecurity solutions protecting your organization from evolving threats. We provide threat detection, incident response, security consulting, and compliance management to ensure your digital assets and data remain secure.",
+    "benefits": [
+      "Threat Detection",
+      "Incident Response",
+      "Compliance Management",
+      "Security Consulting"
+    ],
+    "features": [
+      {
+        "title": "Threat Detection",
+        "desc": "Advanced threat detection and monitoring systems",
+        "iconName": "AlertTriangle"
+      },
+      {
+        "title": "Incident Response",
+        "desc": "Rapid response to security incidents",
+        "iconName": "Zap"
+      },
+      {
+        "title": "Compliance",
+        "desc": "Security compliance and audit management",
+        "iconName": "CheckCircle"
+      }
+    ]
+  }
+]

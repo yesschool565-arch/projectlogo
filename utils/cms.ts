@@ -100,10 +100,22 @@ const defaultFooterLinks: FooterLinkModel[] = [
 // Async API-backed CMS helpers (with fallback to defaults)
 // ============================================================
 
-function createAPIHelper<T extends { id: string }>(endpoint: string, fallbackData: T[]) {
+function createAPIHelper<T extends { id: string }>(endpoint: string, staticDataFile: string, fallbackData: T[]) {
   return {
     getAll: async (): Promise<T[]> => {
       try {
+        // First try to fetch from static JSON file
+        const response = await fetch(staticDataFile);
+        if (response.ok) {
+          console.log(`[CMS] Loaded ${staticDataFile} from static files`);
+          return await response.json();
+        }
+      } catch (err) {
+        console.warn(`[CMS] Static file ${staticDataFile} not found, trying API...`);
+      }
+
+      try {
+        // Try API endpoint as secondary source
         return await api.get<T[]>(endpoint);
       } catch (err) {
         console.warn(`API ${endpoint} unavailable, using defaults:`, err);
@@ -122,8 +134,8 @@ function createAPIHelper<T extends { id: string }>(endpoint: string, fallbackDat
   };
 }
 
-export const CMSServices = createAPIHelper<ServiceModel>('/services', defaultServices);
-export const CMSResources = createAPIHelper<ResourceModel>('/resources', defaultResources);
-export const CMSJobs = createAPIHelper<JobModel>('/jobs', defaultJobs);
-export const CMSIndustries = createAPIHelper<IndustryModel>('/industries', defaultIndustries);
-export const CMSFooterLinks = createAPIHelper<FooterLinkModel>('/footer-links', defaultFooterLinks);
+export const CMSServices = createAPIHelper<ServiceModel>('/services', '/data/services.json', defaultServices);
+export const CMSResources = createAPIHelper<ResourceModel>('/resources', '/data/resources.json', defaultResources);
+export const CMSJobs = createAPIHelper<JobModel>('/jobs', '/data/jobs.json', defaultJobs);
+export const CMSIndustries = createAPIHelper<IndustryModel>('/industries', '/data/industries.json', defaultIndustries);
+export const CMSFooterLinks = createAPIHelper<FooterLinkModel>('/footer-links', '/data/footer-links.json', defaultFooterLinks);

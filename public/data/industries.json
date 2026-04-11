@@ -1,0 +1,250 @@
+[
+  {
+    "id": "1",
+    "slug": "manufacturing",
+    "title": "Manufacturing",
+    "description": "Digital solutions for modern manufacturing",
+    "iconName": "Factory",
+    "fullDescription": "We deliver cutting-edge solutions tailored for the manufacturing sector, from automation and optimization to digital transformation and Industry 4.0 integration.",
+    "benefits": [
+      "Production Optimization",
+      "Equipment Monitoring",
+      "Quality Control",
+      "Supply Chain Integration"
+    ],
+    "features": [
+      {
+        "title": "Automation",
+        "desc": "Advanced manufacturing automation systems",
+        "iconName": "Zap"
+      },
+      {
+        "title": "IoT Integration",
+        "desc": "Connected sensors and real-time monitoring",
+        "iconName": "Radio"
+      },
+      {
+        "title": "Analytics",
+        "desc": "Production analytics and insights",
+        "iconName": "BarChart3"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "healthcare",
+    "title": "Healthcare",
+    "description": "Health tech solutions for modern healthcare providers",
+    "iconName": "Heart",
+    "fullDescription": "Our healthcare solutions support patient care, operational efficiency, and digital transformation. From EHR systems to telemedicine platforms, we provide secure and compliant solutions.",
+    "benefits": [
+      "Patient Care Enhancement",
+      "Regulatory Compliance",
+      "Data Security",
+      "Operational Efficiency"
+    ],
+    "features": [
+      {
+        "title": "EHR Systems",
+        "desc": "Electronic health record management systems",
+        "iconName": "FileText"
+      },
+      {
+        "title": "Telemedicine",
+        "desc": "Remote patient consultation platforms",
+        "iconName": "Video"
+      },
+      {
+        "title": "Analytics",
+        "desc": "Healthcare data analytics and reporting",
+        "iconName": "BarChart3"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "retail-ecommerce",
+    "title": "Retail & E-commerce",
+    "description": "Omnichannel commerce solutions for retailers",
+    "iconName": "ShoppingCart",
+    "fullDescription": "Transform your retail business with our comprehensive e-commerce and omnichannel solutions. From online storefronts to inventory management, we enable seamless customer experiences.",
+    "benefits": [
+      "Sales Growth",
+      "Customer Experience",
+      "Inventory Management",
+      "Omnichannel Integration"
+    ],
+    "features": [
+      {
+        "title": "E-commerce Platform",
+        "desc": "Scalable online shopping platforms",
+        "iconName": "ShoppingCart"
+      },
+      {
+        "title": "Payment Processing",
+        "desc": "Secure payment gateway integration",
+        "iconName": "CreditCard"
+      },
+      {
+        "title": "Inventory",
+        "desc": "Real-time inventory and order management",
+        "iconName": "Package"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "financial-services",
+    "title": "Financial Services",
+    "description": "Fintech solutions for financial institutions",
+    "iconName": "DollarSign",
+    "fullDescription": "We provide secure, compliant fintech solutions for banks, investment firms, and financial institutions. From trading platforms to risk management, we deliver innovation with security.",
+    "benefits": [
+      "Regulatory Compliance",
+      "Security & Encryption",
+      "Trading Efficiency",
+      "Risk Management"
+    ],
+    "features": [
+      {
+        "title": "Trading Platforms",
+        "desc": "Advanced trading and investment platforms",
+        "iconName": "TrendingUp"
+      },
+      {
+        "title": "Compliance",
+        "desc": "Regulatory compliance management systems",
+        "iconName": "CheckCircle"
+      },
+      {
+        "title": "Risk Analysis",
+        "desc": "Real-time risk monitoring and analysis",
+        "iconName": "AlertTriangle"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "energy-utilities",
+    "title": "Energy & Utilities",
+    "description": "Digital solutions for energy and utility sectors",
+    "iconName": "Zap",
+    "fullDescription": "Optimize energy distribution and utility operations with our smart grid, IoT, and analytics solutions. We enable efficient resource management and sustainability.",
+    "benefits": [
+      "Smart Grid Technology",
+      "Energy Efficiency",
+      "Real-time Monitoring",
+      "Sustainability"
+    ],
+    "features": [
+      {
+        "title": "Smart Grid",
+        "desc": "Intelligent grid management systems",
+        "iconName": "Radio"
+      },
+      {
+        "title": "IoT Sensors",
+        "desc": "Connected sensor networks for monitoring",
+        "iconName": "Zap"
+      },
+      {
+        "title": "Predictive",
+        "desc": "Predictive maintenance and analytics",
+        "iconName": "TrendingUp"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "logistics-supply-chain",
+    "title": "Logistics & Supply Chain",
+    "description": "Supply chain optimization and logistics solutions",
+    "iconName": "Truck",
+    "fullDescription": "Optimize your entire supply chain with our logistics, tracking, and analytics solutions. From warehouse management to last-mile delivery, we provide visibility and efficiency.",
+    "benefits": [
+      "Route Optimization",
+      "Real-time Tracking",
+      "Warehouse Automation",
+      "Cost Reduction"
+    ],
+    "features": [
+      {
+        "title": "Tracking",
+        "desc": "Real-time shipment tracking and visibility",
+        "iconName": "Radio"
+      },
+      {
+        "title": "Optimization",
+        "desc": "Route and delivery optimization",
+        "iconName": "Navigation"
+      },
+      {
+        "title": "Warehouse",
+        "desc": "Warehouse management systems",
+        "iconName": "Package"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "oil-gas",
+    "title": "Oil & Gas",
+    "description": "Solutions for upstream, midstream, and downstream operations",
+    "iconName": "Droplet",
+    "fullDescription": "Specialized solutions for the oil and gas industry including exploration, production, distribution, and safety. We provide advanced analytics, automation, and compliance management.",
+    "benefits": [
+      "Production Optimization",
+      "Safety & Compliance",
+      "Resource Management",
+      "Environmental Monitoring"
+    ],
+    "features": [
+      {
+        "title": "Production",
+        "desc": "Reservoir and production optimization",
+        "iconName": "TrendingUp"
+      },
+      {
+        "title": "Safety",
+        "desc": "Safety systems and incident prevention",
+        "iconName": "AlertTriangle"
+      },
+      {
+        "title": "Pipeline",
+        "desc": "Pipeline monitoring and management",
+        "iconName": "GitBranch"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "infrastructure-construction",
+    "title": "Infrastructure & Construction",
+    "description": "Digital solutions for construction and infrastructure projects",
+    "iconName": "HardHat",
+    "fullDescription": "Streamline construction and infrastructure projects with our project management, BIM, and collaboration solutions. From planning to completion, we enhance efficiency and safety.",
+    "benefits": [
+      "Project Management",
+      "Cost Control",
+      "Safety Management",
+      "Quality Assurance"
+    ],
+    "features": [
+      {
+        "title": "BIM",
+        "desc": "Building Information Modeling systems",
+        "iconName": "Building2"
+      },
+      {
+        "title": "Collaboration",
+        "desc": "Team collaboration and communication tools",
+        "iconName": "Users"
+      },
+      {
+        "title": "Compliance",
+        "desc": "Safety and compliance management",
+        "iconName": "CheckCircle"
+      }
+    ]
+  }
+]
