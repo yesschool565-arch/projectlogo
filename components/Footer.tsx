@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="mb-6">
               <img
-                src="/Logo.jpeg"
+                src="/logo.png"
                 alt="OmnitraTech Logo"
                 className="h-16 w-auto object-contain"
               />

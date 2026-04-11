@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-3 group">
               <img
-                src="/Logo.jpeg"
+                src="/logo.png"
                 alt="OmnitraTech Logo"
                 className="h-14 w-auto object-contain"
               />
