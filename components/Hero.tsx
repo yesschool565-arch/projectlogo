@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Abstract Grid Graphic */}
-      <div className="absolute inset-0 bg-[url('/noise.svg')] opacity-20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/5 pointer-events-none"></div>
     </section>
   );
 };
