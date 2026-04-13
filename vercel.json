@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/public/(.*)", "dest": "/public/$1" },
+    { "src": "/solutions/(.*)", "dest": "/solutions/$1" },
+    { "src": "/industries/(.*)", "dest": "/industries/$1" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
