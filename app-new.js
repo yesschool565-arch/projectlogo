@@ -98,38 +98,9 @@ function initContactForm() {
 async function handleContactFormSubmit(e) {
     e.preventDefault();
 
-    const formData = {
-        name: document.getElementById('fullname').value,
-        email: document.getElementById('email').value,
-        phone: '',
-        company: document.getElementById('company').value,
-        message: document.getElementById('message').value,
-        type: document.getElementById('inquirytype').value || 'General Enquiry',
-        date: new Date().toISOString()
-    };
-
-    try {
-        // Try to submit to API
-        const response = await fetch('https://omnitratech-web.onrender.com/api/form-entries', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        });
-
-        if (response.ok) {
-            alert('Thank you! Your message has been sent. We\'ll get back to you soon.');
-            document.getElementById('contactForm').reset();
-        } else {
-            alert('Message sent! We\'ll get back to you soon.');
-            document.getElementById('contactForm').reset();
-        }
-    } catch (error) {
-        console.log('Form submitted locally (API not available)');
-        alert('Thank you! Your message has been received. We\'ll get back to you soon.');
-        document.getElementById('contactForm').reset();
-    }
+    // In a purely static version, we just show a success message
+    alert('Thank you! Your message has been received. (Static Mode: No data was sent to a server)');
+    document.getElementById('contactForm').reset();
 }
 
 // ============ DATA LOADING ============
